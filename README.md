@@ -14,7 +14,7 @@ Hard Mode introduces the following challenge:
 Additionally, other settings can be toggled to further increase the challenge, including randomized maps and doors for an extra layer of difficulty.  
 
 ## Getting Started  
-Check the [[latest releases](https://github.com/EmeraldVoid/Goemon-Hardcore-Randomizer/releases] to get the most up-to-date version of this challenge.  
+Check the [latest releases](https://github.com/EmeraldVoid/Goemon-Hardcore-Randomizer/releases] to get the most up-to-date version of this challenge.  
 
 ## Rules & Settings  
 
