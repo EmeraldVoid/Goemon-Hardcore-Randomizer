@@ -3,7 +3,7 @@
 
 [![Unknown](https://img.shields.io/badge/Untested_Seed-565656?logo=awesomelists&logoColor=ffffff)](https://)
 
-Goemon Randomizer: Hard Mode is a collection of randomly generated seeds that activate **Hard Mode**, significantly increasing the difficulty of the game.  
+Goemon Hardcore Randomizer is a collection of randomly generated seeds that activate **Hard Mode**, significantly increasing the difficulty of the game.  
 
 ## Editions  
 
@@ -14,8 +14,12 @@ There are two **editions** of the challenge:
 
 The core rules of the challenge remain the same across both editions. The main difference is which characters you begin the game with, affecting early-game strategies and routing.  
 
-## What is Hard Mode?  
-Hard Mode introduces the following challenge:  
+## What is Goemon Hardcore Randomizer?
+
+Goemon Hardcore Randomizer is a challenge created by Emerald_Void, built using the [Ancient Cave Starring Goemon Randomizer](https://github.com/abyssonym/mn64rando). Inspired by classic challenge modes such as Kaizo, Nuzlockes, and Iron Mario, this randomizer pushes players to their limits. Special thanks to abyssonym for their incredible work on the original tool that makes this challenge possible.
+
+
+Hardcore Randomizer introduces the following challenge:  
 
 > *"Quadruples the damage taken from all sources. As a result, most enemies will deal a full 2 hearts of damage, meaning you can only survive 2 hits with the starting five hearts. This gives restaurants, shops, and cat dolls more importance throughout the game. Note that helmets and armor will still negate the full damage of a hit, making them much more valuable. A side effect of this option is that any damage taken during the Sweets Minigame is a one-hit kill."*  
 
@@ -32,7 +36,8 @@ These settings must be enabled for Hard Mode to function correctly:
 - **`hard_mode: True`** – This is the core setting and must remain enabled.  
 - **`avoid_softlocks: True`** – Prevents softlocks. This is set to `True` by default in `mn64_settings.yaml`, but double-check that it is enabled.  
 - **`enable_debug: True`**  
-- **`fix_bad_maps: True`**  
+- **`fix_bad_maps: True`**
+- **`randomize_enemies: True`** - This will randomize enemies in the areas giving the game a fresh feel.
 
 ### **Optional Rules**  
 For additional challenge and convenience, you can enable the following:  
@@ -43,6 +48,12 @@ For additional challenge and convenience, you can enable the following:
 - **No Fortune Dolls** – You cannot collect any fortune dolls during your run (unless unavoidable).  
 - **`sasuke_mode: True`** – Enabled by default in the **Sasuke Edition**, this setting starts you as **Sasuke** and **Yae** instead of Goemon and Ebisumaru, with maze logic updated accordingly. Cutscenes remain unchanged, but Ebisumaru can be recruited by viewing Yae’s cutscene, and Goemon by viewing Sasuke’s. *(If playing the Goemon Edition, this should be disabled.)*
 - **Restart on Death** - If you die during a run, you must reset back to the beginning.
+
+  ### 🧩 Additional Info:
+- **Shops, Restaurants, and Cat Dolls Matter More** – With resources being scarcer and damage being higher, healing becomes crucial.  
+- **Armor & Helmets Are Essential** – They still negate full damage from a hit, making them invaluable.
+
+
 ## 🔧 Installation & Usage  
 
 1️⃣ **You must have a working ROM file.** (I cannot provide links to ROMs.)  
