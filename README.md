@@ -41,7 +41,39 @@ For additional challenge and convenience, you can enable the following:
 - **`start_flute: True`** – Start with Yae recruited and Yae’s flute in your possession, updating the maze logic accordingly. This is recommended to reduce excessive backtracking, as the flute is not guaranteed to be obtainable otherwise. *(Note: Castles will no longer be warp locations; you can only warp to Goemon’s house, teahouses, and inns.)*  
 - **`flute_anywhere: True`** – Allows the flute to be used in any room, including castles and shops. If `start_flute` is enabled, this slightly improves seed generation times; if `start_flute` is disabled, it greatly increases generation times. It is recommended to enable both `start_flute` and `flute_anywhere` together.  
 - **No Fortune Dolls** – You cannot collect any fortune dolls during your run (unless unavoidable).  
-- **`sasuke_mode: True`** – Enabled by default in the **Sasuke Edition**, this setting starts you as **Sasuke** and **Yae** instead of Goemon and Ebisumaru, with maze logic updated accordingly. Cutscenes remain unchanged, but Ebisumaru can be recruited by viewing Yae’s cutscene, and Goemon by viewing Sasuke’s. *(If playing the Goemon Edition, this should be disabled.)*  
+- **`sasuke_mode: True`** – Enabled by default in the **Sasuke Edition**, this setting starts you as **Sasuke** and **Yae** instead of Goemon and Ebisumaru, with maze logic updated accordingly. Cutscenes remain unchanged, but Ebisumaru can be recruited by viewing Yae’s cutscene, and Goemon by viewing Sasuke’s. *(If playing the Goemon Edition, this should be disabled.)*
+- **Restart on Death** - If you die during a run, you must reset back to the beginning.
+## 🔧 Installation & Usage  
+
+1️⃣ **You must have a working ROM file.** (I cannot provide links to ROMs.)  
+   - **Verify ROM compatibility** using the following MD5 hashes:  
+
+   **English ROM Hashes:**  
+   ```
+   643cce1ab06f97e9590241d27e5c2363  
+   f2162be647e4aa59254ec5ed7db1e94a (byte-swapped)  
+   e8d83efd203e533d734933e0a14f1a8c (little-endian)  
+   ```  
+   
+   **Japanese ROM Hashes:**  
+   ```
+   9b929e0bf8d63e62820f2fa6257cc5cf  
+   9704b99f5f86879c0482d7223257dcef (byte-swapped)  
+   e5e8d1d0cd03bbcf8bd58151bd84e58f (little-endian)  
+   ```  
+
+2️⃣ Download either the **Goemon Edition** or **Sasuke Edition** `.yaml` file.  
+3️⃣ Move the selected `.yaml` file into the **Goemon Randomizer folder**.  
+4️⃣ **Backup your existing `mn64_settings.yaml` file!** (This ensures you can revert changes.)  
+5️⃣ Rename the downloaded **Goemon or Sasuke Edition** `.yaml` file to **`mn64_settings.yaml`**.  
+6️⃣ Run the **Ancient Cave Starring Goemon Randomizer** ([GitHub Repo](https://github.com/abyssonym/mn64rando)).  
+7️⃣ Your **randomized ROM** is now ready to play!  
+
+## ⚠️ Notes  
+
+- Some generated seeds **may not be completable**.  
+- If you get stuck, ensure **`avoid_softlocks: True`** is enabled.  
+- `sasuke_mode` is **enabled by default in the Sasuke Edition** but should be **disabled in the Goemon Edition**.  
 
 ## Good Luck!  
 Try out some of the **Hardcore Seeds** and test your skills. Be sure to check for updates and share your experiences!  
