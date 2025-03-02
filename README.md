@@ -18,6 +18,9 @@ The core rules of the challenge remain the same across both editions. The main d
 
 Goemon Hardcore Randomizer is a challenge created by Emerald_Void, built using the [Ancient Cave Starring Goemon Randomizer](https://github.com/abyssonym/mn64rando). Inspired by classic challenge modes such as Kaizo, Nuzlockes, and Iron Mario, this randomizer pushes players to their limits. Special thanks to abyssonym for their incredible work on the original tool that makes this challenge possible.
 
+# What is the objective of the game?
+Obtain the four Miracle Items, then use the Pemo Pemo Statue at Ugo Stone Circle to travel to space and defeat the final boss. The Miracle Items are all in their original locations, but there is a setting to start with Miracle Snow already, which is enabled by default.
+
 
 Hardcore Randomizer introduces the following challenge:  
 
