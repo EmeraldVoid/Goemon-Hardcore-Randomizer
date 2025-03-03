@@ -28,7 +28,7 @@ Additionally, other settings can be toggled to further increase the challenge, i
 Obtain the four Miracle Items, then use the Pemo Pemo Statue at Ugo Stone Circle to travel to space and defeat the final boss. The Miracle Items are all in their original locations, but there is a setting to start with Miracle Snow already, which is enabled by default.
 
 ## Getting Started  
-Check the [latest releases](https://github.com/YOUR-REPO/releases) to get the most up-to-date version of this challenge.  
+Check the [latest releases](https://github.com/EmeraldVoid/Goemon-Hardcore-Randomizer/releases) to get the most up-to-date version of this challenge.  
 
 ## Rules & Settings  
 
