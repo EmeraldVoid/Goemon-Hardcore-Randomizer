@@ -50,6 +50,7 @@ For additional challenge and convenience, you can enable the following:
 - **No Fortune Dolls** – You cannot collect any fortune dolls during your run (unless unavoidable).  
 - **`sasuke_mode: True`** – Enabled by default in the **Sasuke Edition**, this setting starts you as **Sasuke** and **Yae** instead of Goemon and Ebisumaru, with maze logic updated accordingly. Cutscenes remain unchanged, but Ebisumaru can be recruited by viewing Yae’s cutscene, and Goemon by viewing Sasuke’s. *(If playing the Goemon Edition, this should be disabled.)*
 - **Restart on Death** - If you die during a run, you must reset back to the beginning.
+  -   You have two options for restarting: you can either reset the current ROM and try again from the beginning, or follow a Kaizo Ironmon-style approach by loading a new randomized ROM for each attempt. I personally generate a large batch of ROMs in advance, so when I die, I can seamlessly load a fresh randomized ROM, keeping the challenge dynamic and unpredictable.
 
   ### 🧩 Additional Info:
 - **Shops, Restaurants, and Cat Dolls Matter More** – With resources being scarcer and damage being higher, healing becomes crucial.  
